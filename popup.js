@@ -45,15 +45,19 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 
-  searchInput.addEventListener("keydown", (event) => {
-    if (event.key === "Enter") {
-      const firstTab = tabsList.querySelector("li");
-      if (firstTab) {
-        const index = Array.prototype.indexOf.call(tabsList.children, firstTab);
-        if (index >= 0) {
-          chrome.tabs.update(tabs[index].id, { active: true });
-        }
-      }
-    }
-  });
+  // searchInput.addEventListener("keydown", (event) => {
+  //   if (event.key === "Enter") {
+  //     const firstTab = tabsList.querySelector("li");
+  //     if (firstTab) {
+  //       const index = Array.prototype.indexOf.call(tabsList.children, firstTab);
+  //       if (index >= 0) {
+  //         chrome.tabs.update(tabs[index].id, { active: true });
+  //       }
+  //     }
+  //   }
+  // });
+
+  // TODO: GOTO selected tab
+  // TODO: Select tab
+  // TODO: Change Shortcut
 });

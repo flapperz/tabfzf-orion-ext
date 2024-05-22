@@ -1,0 +1,53 @@
+body {
+  width: 300px;
+  font-family: Arial, sans-serif;
+  padding: 10px;
+  margin: 0;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  text-align: center;
+}
+
+#search-input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  max-height: 600px;  /* Ensure the list has a maximum height */
+  overflow-y: auto;   /* Add scroll if the content exceeds the maximum height */
+}
+
+li {
+  display: flex;
+  align-items: center;
+  margin: 5px 0;
+  padding: 5px;
+  background-color: #f1f1f1;
+  border-radius: 3px;
+  word-break: break-word; /* Ensure long tab titles wrap */
+}
+
+li img {
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+}
+
+li span {
+  flex-grow: 1;
+  word-break: break-word; /* Ensure long tab titles wrap */
+}

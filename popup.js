@@ -69,5 +69,7 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
   // TODO: Select tab
-  // TODO: Change Shortcut
+  // TODO: VIM navigate key (Key chord ctrl+direction)
+  // TODO: highlight match like in VSCode
+  // TODO: make UI native
 });

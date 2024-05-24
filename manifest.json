@@ -2,11 +2,9 @@
   "name": "Hello Extensions",
   "description": "Base Level Extension",
   "permissions": [
-    "tabs",
-    "storage"
+    "tabs"
   ],
   "host_permissions": [
-    "file://*"
   ],
   "version": "1.2",
   "manifest_version": 3,

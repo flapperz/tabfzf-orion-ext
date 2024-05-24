@@ -11,8 +11,8 @@
   "version": "1.2",
   "manifest_version": 3,
   "action": {
-    "default_popup": "hello.html",
-    "default_icon": "icons/hello_extensions.png"
+    "default_popup": "src/popup/popup.html",
+    "default_icon": "res/icons/hello_extensions.png"
   },
   "commands": {
     "_execute_action": {

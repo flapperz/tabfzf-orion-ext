@@ -7,5 +7,5 @@
       "chrome": ["node_modules/@types/chrome"]
     }
   },
-  "include": ["src/**/*"]
+  // "include": ["src/**/*"]
 }

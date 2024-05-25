@@ -1,7 +1,6 @@
 // TODO: fix close tab bug
-// TODO: highlight match like in VSCode
-// TODO: history
 // TODO: Click to goto
+// TODO: history
 // TODO: Fuzzy Score
 // TODO: Fix fuzzy and highlight
 

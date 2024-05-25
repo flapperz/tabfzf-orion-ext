@@ -1,4 +1,3 @@
-// TODO: fix close tab bug
 // TODO: history
 // TODO: Fuzzy Score
 // TODO: Fix fuzzy and highlight
@@ -61,7 +60,13 @@ document.addEventListener("DOMContentLoaded", () => {
         chrome.tabs.remove(tab.id, () => {
           li.remove();
           tabs = tabs.filter((t) => t.id !== tab.id);
-          renderTabs(tabs, searchTerm, highlightInTitle);
+          filteredTabs;
+          console.log(searchTerm + " " + tabs.length);
+          renderTabs(
+            filteredTabs.filter((t) => t.id !== tab.id),
+            searchTerm,
+            highlightInTitle
+          );
         });
       });
 

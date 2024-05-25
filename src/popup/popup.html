@@ -4,11 +4,13 @@
 
   <link rel="stylesheet" type="text/css" href="popup.css">
 
-  <script src="popup.js"></script>
+  <script src="popup.js" type="module"></script>
 </head>
 <body>
-  <h1 id="title"> Open tabs </h1>
-  <input type="text" id="search-input" placeholder="Search...">
+  <div id="search-container">
+    <input type="text" id="search-input" placeholder="Search Tabs" autofocus>
+    <span id="tab-count"></span>
+  </div>
   <ul id="tabs-list">
     <!-- This is where the list of open tabs will be dynamically populated -->
   </ul>

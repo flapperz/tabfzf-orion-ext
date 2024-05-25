@@ -1,5 +1,4 @@
 // TODO: fix close tab bug
-// TODO: Click to goto
 // TODO: history
 // TODO: Fuzzy Score
 // TODO: Fix fuzzy and highlight
@@ -49,6 +48,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
       tabContent.appendChild(img);
       tabContent.appendChild(span);
+      tabContent.addEventListener("click", (event) => {
+        event.stopPropagation();
+        chrome.tabs.update(tab.id, { active: true });
+      });
 
       const closeButton = document.createElement("button");
       closeButton.innerHTML = "&times;";

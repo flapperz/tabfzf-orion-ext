@@ -10,7 +10,7 @@
   "manifest_version": 3,
   "action": {
     "default_popup": "src/popup/popup.html",
-    "default_icon": "res/icons/hello_extensions.png"
+    "default_icon": "res/icons/index.png"
   },
   "commands": {
     "_execute_action": {

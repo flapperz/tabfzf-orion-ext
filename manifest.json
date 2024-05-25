@@ -1,5 +1,5 @@
 {
-  "name": "Hello Extensions",
+  "name": "Tab Search",
   "description": "Base Level Extension",
   "permissions": [
     "tabs"

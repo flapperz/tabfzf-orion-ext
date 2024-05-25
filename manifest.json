@@ -16,7 +16,7 @@
     "_execute_action": {
       "suggested_key": {
         "default": "Ctrl+Shift+X",
-        "mac": "Command+Shift+X"
+        "mac": "Ctrl+Shift+A"
       },
       "description": "Open the extension"
     }
